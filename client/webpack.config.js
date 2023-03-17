@@ -32,7 +32,7 @@ module.exports = () => {
           exclude: /node_modules/,
           // bable
           use: {
-            loader: 'bable-loader',
+            loader: 'babel-loader',
             options: {
               presets: ['@bable/preset-env'],
               plugins: ['@bable/plugin-proposal-object-rest-spread', '@bable/transform-runtime'],
