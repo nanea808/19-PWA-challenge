@@ -51,10 +51,10 @@ module.exports = () => {
           use: {
             loader: "babel-loader",
             options: {
-              presets: ["@bable/preset-env"],
+              presets: ["@babel/preset-env"],
               plugins: [
-                "@bable/plugin-proposal-object-rest-spread",
-                "@bable/transform-runtime",
+                "@babel/plugin-proposal-object-rest-spread",
+                "@babel/transform-runtime",
               ],
             },
           },
