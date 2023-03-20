@@ -88,7 +88,7 @@ define(['./workbox-8b6cdeda'], (function (workbox) { 'use strict';
     "revision": "1f2e6465e02859f13272bb459525f2c8"
   }, {
     "url": "main.bundle.js",
-    "revision": "1ae5850cf8e99a69ef20edba5814ab05"
+    "revision": "4e407ff6a529fbc123013a568782a523"
   }, {
     "url": "src-sw.js",
     "revision": "b5640384a61fb9e99df6ba15135be30e"
