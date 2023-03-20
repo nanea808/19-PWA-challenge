@@ -81,17 +81,20 @@ define(['./workbox-8b6cdeda'], (function (workbox) { 'use strict';
    * See https://goo.gl/S9QRab
    */
   workbox.precacheAndRoute([{
+    "url": "favicon.ico",
+    "revision": "746db68de78df5d3feaeac6b6c757b2a"
+  }, {
     "url": "index.html",
-    "revision": "b2928fb055f78211ed6f727aaa8e91e0"
+    "revision": "7fc112d94ae1351d8bb756133764abaf"
   }, {
     "url": "install.bundle.js",
     "revision": "1f2e6465e02859f13272bb459525f2c8"
   }, {
     "url": "main.bundle.js",
-    "revision": "4e407ff6a529fbc123013a568782a523"
+    "revision": "77367f978a01f52453c76ebae1d1acea"
   }, {
     "url": "src-sw.js",
-    "revision": "b5640384a61fb9e99df6ba15135be30e"
+    "revision": "7f57b3055a0f2a6db6d2c50b14f30c36"
   }], {});
 
 }));

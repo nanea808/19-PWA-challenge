@@ -21,6 +21,7 @@ module.exports = () => {
       new HtmlWebpackPlugin({
         template: "./index.html",
         title: "J.A.T.E",
+        favicon: "./favicon.ico"
       }),
       // TODO: Add and configure workbox plugins for a service worker and manifest file.
       new GenerateSW(),
@@ -29,11 +30,12 @@ module.exports = () => {
         swDest: "src-sw.js",
       }),
       new WebpackPwaManifest({
-        fingerprints: false,
-        inject: true,
+        // fingerprints: false,
+        // inject: true,
         name: 'Just Another Text Editor',
         short_name: 'J.A.T.E',
         description: 'A text editor!',
+        crossorigin: null,
         start_url: './',
         publicPath: './',
         icons: [
